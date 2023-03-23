@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Inicio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Soft Landing</div>
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class="active">About</a>
+                    </li>
+                    <li>
+                        <a href="" class="active">Prices</a>
+                    </li>
+                    <li>
+                        <a href="" class="active">Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <script>
+            hamburguer = document.querySelector(".hamburguer");
+            hamburguer.onclick = function(){
+                navBar = document.querySelector(".navbar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
